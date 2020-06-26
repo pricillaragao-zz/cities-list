@@ -1,0 +1,39 @@
+html {
+  box-sizing: border-box;
+  background: rgb(240, 240, 48);
+  height: 100vh;
+  font-family: 'Itim', cursive;
+}
+
+input.search {
+  margin: 0;
+  text-align: center;
+  outline: 0;
+  border: 10px solid #f7f7f7;
+  width: 100%;
+  position: relative;
+  top: 10px;
+  z-index: 2;
+  border-radius: 5px;
+  font-size: 40px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.12), inset 0 0 2px rgba(0, 0, 0, 0.19);
+}
+
+.inside-box {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.inside-box {
+  background: white;
+  list-style: none;
+  border-bottom: 1px solid #d8d8d8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.14);
+  margin: 0;
+  padding: 20px;
+  transition: background 0.2s;
+  display: flex;
+  justify-content: space-between;
+  text-transform: capitalize;
+}
